@@ -9,14 +9,24 @@ If you're here for the minimax part, scroll to the end of App.java .
 Developed By Arash Sal Moslehian
 
 
+![Alt text](/screenshots/Board.png?raw=true "Main Board")
+
+![Alt text](/screenshots/Menu.png?raw=true "Starting Menu")
 
 
 You'll need javafx to compile and run this program.
-download it from openjfx official site and extract the contents in somewhere like ~/Documents/libs
+download it from openjfx official site and extract the contents in somewhere like 
+
+home/Documents/libs
+
 then set the following enviroment variable
-export PATH_TO_FX=~/Documents/libs/javafx-sdk-11.0.2/lib
+
+export PATH_TO_FX=home/Documents/libs/javafx-sdk-11.0.2/lib
+
 compile and run using the below commands
+
 java --module-path $PATH_TO_FX --add-modules javafx.controls App
+
 javac --module-path $PATH_TO_FX --add-modules javafx.controls App.java
 
 
